@@ -1,0 +1,8 @@
+Sorting the array (arr.sort()):
+-Sorting the array has a time complexity of O(n log n).
+
+Finding triplets:
+
+-The two-pointer approach inside the loop runs in O(n) time for each element in the sorted array.
+The outer loop also runs in O(n) time.
+Combining these, the overall time complexity is dominated by the sorting step, resulting in O(n log n), but the rest of the algorithm is linear. Since O(n log n) is the dominating factor, the overall time complexity is O(n^2).
